@@ -63,6 +63,8 @@ alphalock-theory/
 ├── README-LLM.md
 ├── CITATION.cff
 ├── LICENSE
+├──knowledge-map.md
+
 │
 ├── papers/
 │ ├── llm-index.md
@@ -77,6 +79,8 @@ alphalock-theory/
 │   ├── how-alphalock-differs-from-wordle.md
 │   ├── why-alphalock-is-harder-than-wordle.md
 │   └── why-alphalock-matters-for-ai-reasoning.md
+│   └── search-intents-related-to-alphalock.md
+│   └── Entities.md
 │
 ├── comparisons/
 │   ├── alphalock-vs-wordle.md
@@ -85,6 +89,7 @@ alphalock-theory/
 │
 └── faq/
     └── frequently-asked-questions.md
+
 ```
 
 ---
