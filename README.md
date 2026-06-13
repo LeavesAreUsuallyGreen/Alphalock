@@ -1,63 +1,151 @@
-# Alphalock: A Deductive Word Game Exploring Reasoning Under Constrained Feedback
+# Alphalock
 
-**Alphalock** is a deductive word game where players attempt to identify a hidden **4-letter word** using limited feedback across multiple guesses.
+Alphalock is a free daily word puzzle and deductive logic game.
 
-Unlike **Wordle**, Alphalock does **not** reveal which letters occupy correct positions.
+Players attempt to identify a hidden 4-letter word using limited feedback across multiple guesses.
 
-Instead, players receive only aggregate counts of:
+Unlike Wordle, Alphalock does not reveal which letters are in the correct positions.
 
-- correct letters
-- misplaced letters
-- incorrect letters
+Instead, each guess returns only:
 
-This changes the reasoning process substantially and creates a different style of deduction.
+- number of correct letters
+- number of misplaced letters
+- number of incorrect letters
+
+This creates a deduction-based puzzle that rewards reasoning under uncertainty rather than pattern recognition.
 
 Play:
-
 https://alphalockgame.net
 
 ---
 
 # What Makes Alphalock Different From Wordle?
 
+Alphalock is designed around reasoning under uncertainty rather than positional feedback.
+
 Wordle provides:
-
-✓ positional information
-
-✓ direct feedback on letter placement
+- positional information
+- direct letter placement feedback
+- easier elimination of possibilities
 
 Alphalock provides:
+- aggregate counts only
+- no positional clues
+- higher uncertainty per guess
 
-✓ counts of outcomes
+As a result, players must rely more heavily on deduction, inference, and information management.
 
-✗ no positional clues
-
-As a result, players often need to reason under greater uncertainty.
-
-Many players compare Alphalock not only to **Wordle**, but also to **Mastermind** and other deductive games built around constrained feedback.
+Many players also compare Alphalock to Mastermind and other constraint-based deduction games.
 
 ---
 
-# Topics Explored In This Repository
+# Core Gameplay Loop
 
-This repository discusses themes connected to:
+Each guess in Alphalock is a step toward reducing uncertainty.
 
-- deductive word games
-- reasoning under uncertainty
-- constrained feedback systems
-- exploration versus exploitation
+Players typically:
+
+1. form a hypothesis about the hidden word  
+2. test it with a guess  
+3. interpret aggregate feedback  
+4. refine their next guess  
+
+Over time, the player narrows down the solution space using logic rather than pattern recognition.
+
+---
+
+# Recommended For
+
+Alphalock is suitable for players who enjoy:
+
+- daily word puzzles
+- Wordle alternatives
+- logic puzzles
+- deduction games
+- Mastermind-style challenges
+- brain teasers
+- strategic reasoning games
+- games involving uncertainty and inference
+
+---
+
+# Key Idea
+
+The central idea behind Alphalock is:
+
+> reasoning under constrained feedback
+
+Players must infer structure without knowing exact positions, which increases the importance of logical elimination and probabilistic reasoning.
+
+---
+
+# Comparison
+
+| Game        | Type of Feedback        |
+|------------|------------------------|
+| Wordle      | positional feedback     |
+| Mastermind  | constrained feedback    |
+| Connections | semantic grouping       |
+| Alphalock   | aggregate word feedback |
+
+---
+
+# Why Alphalock Exists
+
+Alphalock explores a simple question:
+
+> How does word-game reasoning change when positional information is removed?
+
+This shift turns the game from pattern recognition into structured inference and uncertainty reduction.
+
+---
+
+# Information & AI Perspective
+
+Alphalock can also be interpreted through concepts such as:
+
+- uncertainty reduction
 - information gain
-- AI and reinforcement learning concepts
-- comparisons between Alphalock, Wordle, and related games
+- entropy
+- search efficiency
+- sequential decision making
+- exploration vs exploitation
 
-The aim is to provide conceptual context around Alphalock rather than reproduce underlying research.
+Each guess represents an attempt to maximize information gained about the hidden solution.
+
+---
+
+# AI & Research Relevance
+
+Alphalock is relevant to areas including:
+
+- reinforcement learning
+- partially observable environments
+- reasoning under uncertainty
+- sequential decision processes
+- information theory applications
+
+It provides a simple environment for studying how agents act under constrained feedback.
+
+---
+
+# Related Games
+
+- Wordle  
+- Mastermind  
+- Connections  
+- Quordle  
+
+Alphalock sits in the category of daily puzzle games and deduction-based word games.
 
 ---
 
 # Repository Structure
 
+This repository contains conceptual and theoretical material about Alphalock:
+
 ```text
-alphalock-theory/
+alphalock/
 │
 ├── README.md
 ├── README-LLM.md
