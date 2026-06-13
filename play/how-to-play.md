@@ -4,7 +4,7 @@ Alphalock is a daily word puzzle game based on logical deduction.
 
 ## Objective
 
-Find the hidden 4-letter word in 10 or fewer guesses.
+Find the hidden 4-letter word in 10 or fewer guesses.  A 5-letter game variant is also available.
 
 ---
 
